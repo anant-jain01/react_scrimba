@@ -1,24 +1,34 @@
-# Logs
-logs
-*.log
+# ⚡ Vite Build Files
+dist/
+
+# 📦 Node Modules
+node_modules/
+
+# ⚙️ Environment Variables
+.env
+.env.local
+.env.development
+.env.production
+
+# 🔍 Logs & Debugging
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# ⚡ Vite Cache
+.vite/
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# 🛠 Editor & System Files
 .DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# 🔥 Mac & Linux System Files
+*.swp
+.DS_Store
+node_modules/
+dist/
+.env
+coverage/
